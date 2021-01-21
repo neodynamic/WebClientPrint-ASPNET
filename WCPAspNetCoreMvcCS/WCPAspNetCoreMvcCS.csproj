@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="files\GuidingPrinciplesBusinessHR_EN.pdf" />
+    <None Remove="files\LoremIpsum-PasswordProtected.doc" />
+    <None Remove="files\LoremIpsum-PasswordProtected.pdf" />
+    <None Remove="files\LoremIpsum.doc" />
+    <None Remove="files\LoremIpsum.pdf" />
+    <None Remove="files\LoremIpsum.txt" />
+    <None Remove="files\mixed-page-orientation.pdf" />
+    <None Remove="files\patent2pages.tif" />
+    <None Remove="files\penguins300dpi.jpg" />
+    <None Remove="files\Project-Scheduling-Monitoring-Tool.xls" />
+    <None Remove="files\Sample-Employee-Handbook.doc" />
+    <None Remove="files\SamplePngImage.png" />
+    <None Remove="files\SampleSheet-PasswordProtected.xls" />
+    <None Remove="files\SampleSheet.xls" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="files\GuidingPrinciplesBusinessHR_EN.pdf" />
+    <Content Include="files\LoremIpsum-PasswordProtected.doc" />
+    <Content Include="files\LoremIpsum-PasswordProtected.pdf" />
+    <Content Include="files\LoremIpsum.doc" />
+    <Content Include="files\LoremIpsum.pdf" />
+    <Content Include="files\LoremIpsum.txt" />
+    <Content Include="files\mixed-page-orientation.pdf" />
+    <Content Include="files\patent2pages.tif" />
+    <Content Include="files\penguins300dpi.jpg" />
+    <Content Include="files\Project-Scheduling-Monitoring-Tool.xls" />
+    <Content Include="files\Sample-Employee-Handbook.doc" />
+    <Content Include="files\SamplePngImage.png" />
+    <Content Include="files\SampleSheet-PasswordProtected.xls" />
+    <Content Include="files\SampleSheet.xls" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.9" />
+    <PackageReference Include="Neodynamic.SDK.WebClientPrint" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>
